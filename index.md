@@ -4,6 +4,7 @@ title: Nyxem.github.io
 ---
 
 # Nyxem's corner
+## Choose a location
 
 <nav>
   {% for item in site.data.navigation %}
@@ -13,5 +14,11 @@ title: Nyxem.github.io
   {% endfor %}
 </nav>
 
-
-##  
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

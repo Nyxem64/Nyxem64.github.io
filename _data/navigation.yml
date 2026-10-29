@@ -1,4 +1,8 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
+- name: Tutorials
+  link: /tutorials/
+- name: GoldenEye
+  link: /tutorials/ge/
+- name: Perfect Dark
+  link: /tutorials/pd/
