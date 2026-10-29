@@ -1,8 +1,8 @@
 - name: Home
   link: /
-- name: Tutorials
-  link: /tutorials/
+- name: PerfectGold
+  link: /perfectgold/
 - name: GoldenEye
-  link: /tutorials/ge/
+  link: /goldeneye/
 - name: Perfect Dark
-  link: /tutorials/pd/
+  link: /perfectdark/
