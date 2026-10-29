@@ -1,15 +1,15 @@
 collections:
-	game:
-		output: true
+  game:
+    output: true
 
 defaults:
-	- scope:
-		path: ""
-		type: "game"
-	values:
-		layout: "game"
-	- scope: 	
-		path: ""
+  - scope:
+    path: ""
+    type: "game"
+  values:
+    layout: "game"
+  - scope: 	
+    path: ""
 		type: "tutorial"
 	values:
 		layout: "tutorial"
