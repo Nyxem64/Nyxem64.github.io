@@ -1,15 +1,19 @@
 collections:
-  game:
-    output: true
+  authors:
+		output: true
 
 defaults:
   - scope:
-    path: ""
-    type: "game"
-  values:
-    layout: "game"
-  - scope: 	
-    path: ""
-		type: "tutorial"
-	values:
-		layout: "tutorial"
+      path: ""
+      type: "game"
+    values:
+      layout: "game"
+  - scope:
+      path: ""
+      type: "tutorial"
+    values:
+      layout: "tutorial"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
