@@ -1,7 +1,6 @@
 collections:
   tutorial:
     output: true
-    permalink: /:collection/:name
 
 defaults:
   - scope:
@@ -18,4 +17,4 @@ defaults:
       path: ""
     values:
       layout: "default"
-      permalink: "none"
+      permalink: /:categories/:title:output_ext
